@@ -11,21 +11,15 @@ export class ProfileComponent {
   /*adds education code-by-color #140956*/
   schools = [
     {
-      name: 'Generic School Name',
-      major: 'generic middle school',
-      start: new Date('2003-09-01'),
-      end: new Date('2009-07-01'),
+      name: 'John F.Kennedy Schue',
+      major: 'Wirtschaftsgymnasium',
+      start: new Date('2010-09-01'),
+      end: new Date('2014-07-22'),
     },
     {
-      name: 'Generic High School Name',
-      major: 'generic major title',
-      start: new Date('2009-09-01'),
-      end: new Date('2012-06-01'),
-    },
-    {
-      name: 'Generic Univeristy',
-      major: 'generic major title',
-      start: new Date('2012-09-01'),
+      name: 'Hochschule Esslingen',
+      major: 'Wirtschaftsinformatik (Bachelor of Engineering)',
+      start: new Date('2015-03-01'),
       end: new Date(),
     }
   ];
@@ -34,21 +28,21 @@ export class ProfileComponent {
   /*adds jobs code-by-color #140956*/
   works = [
     {
-      name: 'Generic Internship',
-      role: 'Director of Fundom (and Planner)',
-      start: new Date('2007-11-26'),
-      end: new Date('2007-11-30'),
+      name: 'Rennstall Esslingen',
+      role: 'Formula Student',
+      start: new Date('2015-03-16'),
+      end: new Date('2016-01-30'),
     },
     {
-      name: 'Generic Company',
-      role: 'Key Account Manager Facility Management',
-      start: new Date('2015-02-08'),
-      end: new Date('2016-02-08'),
+      name: 'Hochschule Esslingen',
+      role: 'Semestersprecherin'',
+      start: new Date('2015-03-15'),
+      end: new Date('2017-08-31'),
     },
     {
-      name: 'IBM Deutschland GmbH',
-      role: 'Bluemix Software Developer',
-      start: new Date('2016-02-08'),
+      name: 'Daimler AG',
+      role: 'Flexipool-Mitarbeiter in Powertrain Tool Management',
+      start: new Date('2017-10-27'),
       end: new Date(),
     }
   ];
