@@ -35,7 +35,7 @@ export class ProfileComponent {
     },
     {
       name: 'Hochschule Esslingen',
-      role: 'Semestersprecherin'',
+      role: 'Semestersprecherin',
       start: new Date('2015-03-15'),
       end: new Date('2017-08-31'),
     },
